@@ -22,7 +22,11 @@ MIcroservice using Spring cloud, Eureka, Zuul, Feign and Zipkin
  ruta zipkin:
  	http://localhost:9411
  	
- 		 	
+ 		 
+ ![Screenshot from running application](images/zipkin.png?raw=true "Screenshot zipkin")
+ 
+ ![Screenshot from running application](images/zipkin2.png?raw=true "Screenshot zipkin")
+ 
 ## Requisitos ripple-bkt-app-web
    
   Requisitos:
