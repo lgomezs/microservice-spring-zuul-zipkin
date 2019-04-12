@@ -1,0 +1,37 @@
+info:
+  component: Gateway Server
+server:
+  port: 8765
+  
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+
+zuul:
+  prefix: /api
+  routes:
+    category: 
+      path: /category/**
+      serviceId: category-product-service
+    product: 
+      path: /product/**
+      serviceId: product-service        
+
+ribbon:
+  eureka:
+    enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registerWithEureka: false
+      
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: DEBUG
