@@ -2,12 +2,12 @@
 
 MIcroservice using Spring cloud, Eureka, Zuul, Feign and Zipkin
 
- Zuul    – gateway service that provides dynamic routing, monitoring, resiliency, security, and more
- Ribbon  – client side load balancer
- Feign   – declarative REST client
- Eureka  – service registration and discovery
- Sleuth  – distributed tracing via logs
- Zipkin  – distributed tracing system with request visualization.
+ Zuul    â€“ gateway service that provides dynamic routing, monitoring, resiliency, security, and more
+ Ribbon  â€“ client side load balancer
+ Feign   â€“ declarative REST client
+ Eureka  â€“ service registration and discovery
+ Sleuth  â€“ distributed tracing via logs
+ Zipkin  â€“ distributed tracing system with request visualization.
 
 
  Eureka:
@@ -27,7 +27,7 @@ MIcroservice using Spring cloud, Eureka, Zuul, Feign and Zipkin
  
  ![Screenshot from running application](images/zipkin2.png?raw=true "Screenshot zipkin")
  
-## Requisitos ripple-bkt-app-web
+## Requisitos
    
   Requisitos:
    - JDK 1.8
